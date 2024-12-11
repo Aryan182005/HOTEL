@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header bg-warning">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse d-flex justify-content-between col-12" id="navbarSupportedContent">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+                  <ul
+                    class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center d-none d-md-none d-lg-flex col-10 justify-content-center">
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link active text-light" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="About-us.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown me-lg-3 me-xl-5">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Pages
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Gallery.html">Gallery</a></li>
+                        <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                        <li><a class="dropdown-item" href="Service-.html">Service</a></li>
+                      </ul>
+                    </li>
+                    <a class="logo" href="Home.html"><img src="img/logo1.png" alt=""></a>
+                    <li class="nav-item ms-lg-3 ms-xl-5 me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Our Contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex col-2 justify-content-end" role="search">
+                    <a class="mt-2" href="#"><i class="bi bi-search me-3 text-light"></i></a>
+                    <a class="button border border-primary d-none d-md-none d-lg-block bg-primary text-light"
+                      href="#">Book</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <nav class="navbar navbar-expand-lg d-block d-lg-none">
+            <div class="container-fluid">
+              <a href="#"><i class="bi bi-search text-light"></i></a>
+              <a class="navbar-brand m-0 col-6 text-center" href="Home.html"><img src="img/logo1.png" alt=""
+                  class="col-10"></a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link active text-light" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="About-us.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown me-lg-3 me-xl-5">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Gallery.html" target="_blank">Gallery</a></li>
+                      <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                      <li><a class="dropdown-item" href="Service-.html">Service</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item  me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Our Contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex col-12 justify-content-center" role="search">
+                  <a class="button border border-primary bg-primary text-light" href="#">Book</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- FAQ-slider -->
+    <section class="FAQ-slider ">
+      <div class="container">
+        <div class="row text-center">
+          <nav aria-label="breadcrumb">
+            <h2 class="About-heading text-light fs-1">FAQ</h2>
+            <ol class="breadcrumb d-flex justify-content-center">
+              <li class="breadcrumb-item"><a class="text-light fs-5" href="#">Home</a></li>
+              <li class="breadcrumb-item text-light active fs-5" aria-current="page">FAQ</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ-Questions -->
+    <section class="FAQ-Questions py-100 py-50">
+      <div class="container">
+        <div class="row">
+          <div class="FAQ-Questions-heading text-center mb-5">
+            <p>GET ALL THE ANSWERS TO THE MOST FREQUENTLY ASKED QUESTIONS (FAQS) REGARDING VISIT,
+              SERVICES, INTELLIGENTHOME, AND MUCH, MUCH MORE.</p>
+          </div>
+          <div class="FAQ-menu col-12 d-flex flex-wrap">
+            <div class="FAQ-box col-12 col-md-5">
+              <div class="FAQ-img">
+                <img src="img/FAQ-Question-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="FAQ-contant col-12 col-md-7 mt-5 mt-md-0">
+              <div class="FAQ-xyz ps-md-3 ps-lg-5">
+                <h2 class="fs-1 mb-4">General Questions</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed mb-3" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                What Accomodations are made for visitors with Disabilities?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                                Observatory and also have lowered viewing walls and binoculars. Service dogs
+                                are allowed throughout the building. Motorized and non motorized wheelchairs
+                                are permitted. The 86th Floor has ramps to make getting around easier and
+                                lowered viewing walls so that visitors in chairs can still take in the view.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed mb-3" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                What happens if a guest damages a property?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                                Observatory and also have lowered viewing walls and binoculars. Service dogs
+                                are allowed throughout the building. Motorized and non motorized wheelchairs
+                                are permitted. The 86th Floor has ramps to make getting around easier and
+                                lowered viewing walls so that visitors in chairs can still take in the view.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed mb-3" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                Can I bring a tripod for my camera?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                                Observatory and also have lowered viewing walls and binoculars. Service dogs
+                                are allowed throughout the building. Motorized and non motorized wheelchairs
+                                are permitted. The 86th Floor has ramps to make getting around easier and
+                                lowered viewing walls so that visitors in chairs can still take in the view.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingfour">
+                            <button class="accordion-button collapsed " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
+                                aria-expanded="false" aria-controls="flush-collapsefour">
+                                What amenities are available at the top? Is there a restroom?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingfour" data-bs-parent="#flush-headingfour">
+                            <div class="accordion-body">We have handicapped restrooms on the 86th Floor Observatory and also have lowered viewing walls and binoculars. Service dogs are allowed throughout the building. Motorized and non motorized wheelchairs are permitted. The 86th Floor has ramps to make getting around easier and lowered viewing walls so that visitors in chairs can still take in the view.    
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="FAQ-menu col-12 d-none d-md-flex mt-5 flex-wrap">
+          <div class="FAQ-contant col-12 col-md-7">
+            <div class="FAQ-xyz pe-md-3 pe-lg-5">
+              <h2 class="fs-1 mb-4">Other Questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What Accomodations are made for visitors with Disabilities?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What happens if a guest damages a property?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Can I bring a tripod for my camera?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingfour">
+                  <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                    What amenities are available at the top? Is there a restroom?
+                  </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                  data-bs-parent="#flush-headingfour">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor Observatory and also have
+                    lowered viewing walls and binoculars. Service dogs are allowed throughout the building. Motorized
+                    and non motorized wheelchairs are permitted. The 86th Floor has ramps to make getting around easier
+                    and lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="FAQ-box col-12 col-md-5">
+            <div class="FAQ-img">
+              <img src="img/FAQ-Question-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="FAQ-menu col-12 d-flex d-md-none mt-5 flex-wrap">
+          <div class="FAQ-box col-12 col-md-5">
+            <div class="FAQ-img">
+              <img src="img/FAQ-Question-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="FAQ-contant col-12 col-md-7 mt-5 ">
+            <div class="FAQ-xyz pe-md-3 pe-lg-5">
+              <h2 class="fs-1 mb-4">Other Questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What Accomodations are made for visitors with Disabilities?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What happens if a guest damages a property?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Can I bring a tripod for my camera?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor
+                    Observatory and also have lowered viewing walls and binoculars. Service dogs
+                    are allowed throughout the building. Motorized and non motorized wheelchairs
+                    are permitted. The 86th Floor has ramps to make getting around easier and
+                    lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingfour">
+                  <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                    What amenities are available at the top? Is there a restroom?
+                  </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                  data-bs-parent="#flush-headingfour">
+                  <div class="accordion-body">We have handicapped restrooms on the 86th Floor Observatory and also have
+                    lowered viewing walls and binoculars. Service dogs are allowed throughout the building. Motorized
+                    and non motorized wheelchairs are permitted. The 86th Floor has ramps to make getting around easier
+                    and lowered viewing walls so that visitors in chairs can still take in the view.
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- offers -->
+    <section class="offers bg-warning py-100 py-50">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="offers-heading text-center mb-3 mb-md-5 col-12 col-md-8 col-lg-6">
+                        <h1 class="text-light">Sign Up For Exclusive Offers From Us</h1>
+                    </div>
+                    <div class="offers-menu d-flex justify-content-center align-items-center text-center flex-wrap">
+                        <input type="text" placeholder="Your name." class="me-2 mb-4 mb-sm-0">
+                        <input type="email" placeholder="Your email address" class="me-2"> 
+                        <div class="offers-button mt-5 mt-sm-4 mt-md-0">
+                          <a class="border border-primary text-light mt-4" href="javascript:void(0);">SUBSCRIBE NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer bg-warning">
+      <div class="container">
+        <div class="row">
+          <div class="footer-menu col-12 d-flex justify-content-between">
+            <div class="footer-box d-flex align-items-center">
+              <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-column flex-lg-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ABOUT US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ROOMS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONFERENCE ROOM</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="footer-logo">
+              <a href="#"><img src="img/logo1.png" alt=""></a>
+            </div>
+            <div class="footer-box d-flex align-items-center">
+              <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-column flex-lg-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="#">WEDDING HALL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">RESTAURANT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONTACT</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="copy-menu d-flex flex-wrap justify-content-center justify-content-sm-between">
+            <p class="text-light mb-4 mb-sm-0 text-center text-sm-start">© RangeRelaxe. All rights reserved. Design by GalliaSoft</p>
+            <ul class="d-flex p-0">
+              <li><a href="javascript:void(0);"><i class="bi bi-facebook text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-twitter text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-linkedin text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-youtube text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-facebook text-light me-3 border border-transparent rounded-circle"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

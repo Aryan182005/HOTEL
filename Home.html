@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Mengment</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header bg-warning">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse d-flex justify-content-between col-12" id="navbarSupportedContent">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+                  <ul
+                    class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center d-none d-md-none d-lg-flex col-10 justify-content-center">
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link active text-light" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="About-us.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown me-lg-3 me-xl-5">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Pages
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Gallery.html">Gallery</a></li>
+                        <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                        <li><a class="dropdown-item" href="Service-.html">Service</a></li>
+                      </ul>
+                    </li>
+                    <a class="logo" href="Home.html"><img src="img/logo1.png" alt=""></a>
+                    <li class="nav-item ms-lg-3 ms-xl-5 me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-lg-3 me-xl-5">
+                      <a class="nav-link text-light" href="Our Contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex col-2 justify-content-end" role="search">
+                    <a class="mt-2" href="#"><i class="bi bi-search me-3 text-light"></i></a>
+                    <a class="button border border-primary d-none d-md-none d-lg-block bg-primary text-light"
+                      href="#">Book</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <nav class="navbar navbar-expand-lg d-block d-lg-none">
+            <div class="container-fluid">
+              <a  href="#"><i class="bi bi-search text-light"></i></a>
+              <a class="navbar-brand m-0 col-6 text-center" href="Home.html"><img src="img/logo1.png" alt=""
+                  class="col-10"></a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link active text-light" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="About-us.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown me-lg-3 me-xl-5">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Gallery.html" target="_blank">Gallery</a></li>
+                      <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                      <li><a class="dropdown-item" href="Service-.html">Service</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item  me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item me-lg-3 me-xl-5">
+                    <a class="nav-link text-light" href="Our Contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex col-12 justify-content-center" role="search">
+                  <a class="button border border-primary bg-primary text-light" href="#">Book</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- .slider -->
+    <section class="slider">
+      <div class="slider-manu p-0">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <img src="img/Home-slider.webp" class="d-block w-100 h-100" alt="...">
+              <div class="slider-contant text-center position-absolute">
+                <h6 class="text-light mb-2 mb-sm-4">LAGUNA BEACH HOTEL</h6>
+                <h1 class="text-light">Relive Your Memories, Enjoy <br> Our Beach Club</h1>
+                <p class="text-light mb-2  mb-sm-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                  tellus,
+                  luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="slider-button-menu d-flex justify-content-center">
+                  <div class="slider-buttonn me-3 me-md-5">
+                    <a class="border-primary bg-primary text-light" href="#">GET STARTED</a>
+                  </div>
+                  <div class="slider-button">
+                    <a class="border border-primary text-light" href="#">BOOK NOW!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Home-slider-2.webp" class="d-block w-100" alt="...">
+              <div class="slider-contant text-center position-absolute">
+                <h6 class="text-light mb-2 mb-sm-4">LAGUNA BEACH HOTEL</h6>
+                <h1 class="text-light">Relive Your Memories, Enjoy <br> Our Beach Club</h1>
+                <p class="text-light   mb-2 mb-sm-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                  tellus,
+                  luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="slider-button-menu d-flex justify-content-center">
+                  <div class="slider-buttonn mb-2 me-sm-5">
+                    <a class="border-primary bg-primary text-light" href="#">GET STARTED</a>
+                  </div>
+                  <div class="slider-button">
+                    <a class="border border-primary text-light" href="#">BOOK NOW!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Home-slider-3.webp" class="d-block w-100" alt="...">
+              <div class="slider-contant text-center position-absolute">
+                <h6 class="text-light mb-2 mb-sm-4">LAGUNA BEACH HOTEL</h6>
+                <h1 class="text-light">Relive Your Memories, Enjoy <br> Our Beach Club</h1>
+                <p class="text-light  mb-2  mb-sm-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                  tellus,
+                  luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="slider-button-menu d-flex justify-content-center">
+                  <div class="slider-buttonn me-5">
+                    <a class="border-primary bg-primary text-light" href="#">GET STARTED</a>
+                  </div>
+                  <div class="slider-button">
+                    <a class="border border-primary text-light" href="#">BOOK NOW!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- rooms -->
+    <section class="rooms py-100 py-50 position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="rooms-heading">
+            <h2 class="fs-2 fw-normal mb-0">Rooms And Suits</h2>
+          </div>
+          <div class="rooms-tital d-block d-sm-flex justify-content-between align-items-center">
+            <p>Pick a room that best suits your taste and budget </p>
+            <!-- <div class="rooms-button d-flex mb-5">
+              <div class="prve-button ">
+                <i class="bi bi-chevron-left border border-primary bg-primary text-light me-2"></i>
+              </div>
+              <div class="prve-button">
+                <i class="bi bi-chevron-right border border-primary bg-primary text-light"></i>
+              </div>
+            </div> -->
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="rooms-box">
+                <div class="card border-0 me-1">
+                  <img src="img/pexels-luca-luperto-19045887 (1).jpg" class="card-img-top rounded-1" alt="...">
+                  <div class="card-body">
+                    <h2 class="fs-4 mt-1">Deluxe Room</h2>
+                    <p class="fs-6 mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmodipsum
+                      dolor sit amet</p>
+                    <div class="rooms-details d-flex justify-content-between">
+                      <div class="rooms-details-box d-flex align-items-center">
+                        <a class="fs-6 border border-primary rounded-1 bg-primary text-light" href="#">DETAILS</a>
+                      </div>
+                      <div class="rooms-details-box">
+                        <span><b>$135</b></span>
+                        <h6>Per Night</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="rooms-box">
+                <div class="card border-0 me-1">
+                  <img src="img/pexels-pixabay-164595.jpg" class="card-img-top rounded-1" alt="...">
+                  <div class="card-body">
+                    <h2 class="fs-4 mt-1">Deluxe Room</h2>
+                    <p class="fs-6 mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmodipsum
+                      dolor sit amet</p>
+                    <div class="rooms-details d-flex justify-content-between">
+                      <div class="rooms-details-box d-flex align-items-center">
+                        <a class="fs-6 border border-primary rounded-1 bg-primary text-light" href="#">DETAILS</a>
+                      </div>
+                      <div class="rooms-details-box">
+                        <span><b>$135</b></span>
+                        <h6>Per Night</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="rooms-box">
+                <div class="card border-0 me-1">
+                  <img src="img/pexels-max-rahubovskiy-6207819.jpg" class="card-img-top rounded-1" alt="...">
+                  <div class="card-body">
+                    <h2 class="fs-4 mt-1">Deluxe Room</h2>
+                    <p class="fs-6 mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmodipsum
+                      dolor sit amet</p>
+                    <div class="rooms-details d-flex justify-content-between">
+                      <div class="rooms-details-box d-flex align-items-center">
+                        <a class="fs-6 border border-primary rounded-1 bg-primary text-light" href="#">DETAILS</a>
+                      </div>
+                      <div class="rooms-details-box">
+                        <span><b>$135</b></span>
+                        <h6>Per Night</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="rooms-box">
+                <div class="card border-0 me-1">
+                  <img src="img/pexels-curtis-adams-3935353.jpg" class="card-img-top rounded-1" alt="...">
+                  <div class="card-body">
+                    <h2 class="fs-4 mt-1">Deluxe Room</h2>
+                    <p class="fs-6 mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmodipsum
+                      dolor sit amet</p>
+                    <div class="rooms-details d-flex justify-content-between">
+                      <div class="rooms-details-box d-flex align-items-center">
+                        <a class="fs-6 border border-primary rounded-1 bg-primary text-light" href="#">DETAILS</a>
+                      </div>
+                      <div class="rooms-details-box">
+                        <span><b>$135</b></span>
+                        <h6>Per Night</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-us -->
+    <section class="About-us">
+      <div class="container">
+        <div class="row">
+          <div class="About-us-menu col-12 d-block d-sm-flex flex-wrap">
+            <div class="About-us-box col-12 col-sm-12 col-md-6">
+              <div class="About-us-img">
+                <img src="img/About-us.jpg" alt="">
+              </div>
+            </div>
+            <div class="About-us-contant col-12 col-sm-12 col-md-6 text-center text-sm-start">
+              <h6 class="text-primary mb-3">About Us</h6>
+              <h2 class="fw-normal mb-4">Living in the Sun, Swimming in the Sea</h2>
+              <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet magna
+                nibh, non mollis nisi lobortis sed. In et dapibus ligula. Integer consequat sollicitudin diam sit
+                amet tristique. Scelerisque sapien ut libero rutrum, vitae viverra tellus vestibulum.</p>
+              <div class="About-us-button mt-3 mt-lg-5">
+                <a class="border border-dark bg-dark text-light" href="javascript:void(0);">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review -->
+    <section class="review py-100 py-50">
+      <div class="container">
+        <div class="row">
+          <div class="review-menu col-12 d-flex flex-wrap">
+            <div class="review-box col-12 col-sm-12 col-md-8">
+              <div class="review-img mb-5 mb-md-0"></div>
+            </div>
+            <div
+              class="review-contant col-12 col-sm-12 col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
+              <div class="review-bix me-4 pe-5 pe-sm-5  pe-md-4 pe-lg-5 border-end">
+                <h2 class="text-dark">150+</h2>
+                <p>Available Menus</p>
+              </div>
+              <div class="review-bixpe-5 pe-sm-5  pe-md-4 ps-lg-5">
+                <h2 class="text-dark">99%</h2>
+                <p>Positif Reviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Enjoy -->
+    <section class="Enjoy py-100">
+      <div class="container">
+        <div class="row">
+          <div class="enjoy-menu text-center">
+            <h2 class="text-light">Enjoy your hotel</h2>
+            <div class="video-play mt-5 ">
+              <a href="#" class="d-flex justify-content-center"> <i
+                  class="bi bi-play text-light fs-1 border border-3 rounded-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service -->
+    <section class="service py-100 py-50">
+      <div class="container">
+        <div class="row">
+          <div class="service-menu col-12 d-none d-xl-flex flex-wrap justify-content-center">
+            <div class="service-box col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3  d-flex justify-content-center">
+              <div class="card border-0 bg-transparent" style="width: 18rem;">
+                <div class="card-body">
+                  <h2>OUR SERVICES</h2>
+                  <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    Ut enim ad minima veniam.</p>
+                  <a class="border-bottom border-primary" href="#">VIEW ALL SERVICES</a>
+                </div>
+              </div>
+            </div>
+            <div class="service-box col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3  d-flex justify-content-center">
+              <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                <i class="bi bi-wifi fs-1 text-primary"></i>
+                <div class="card-body">
+                  <h5 class="card-title mb-3">FREE WIFI</h5>
+                  <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                    Volup tatem Utad minima.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-box col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3  d-flex justify-content-center mt-md-5 mt-lg-0">
+              <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                <i class="bi bi-apple fs-1 text-primary"></i>
+                <div class="card-body">
+                  <h5 class="card-title mb-3">BREAKFAST</h5>
+                  <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                    Volup tatem Utad minima.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-box col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3  d-flex justify-content-center mt-md-5 mt-lg-0">
+              <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                <i class="bi bi-taxi-front fs-1 text-primary"></i>
+                <div class="card-body">
+                  <h5 class="card-title mb-3">PICK AND DROP</h5>
+                  <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                    Volup tatem Utad minima.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel owl-theme d-block d-xl-none">
+            <div class="item">
+              <div class="service-box d-flex justify-content-center">
+                <div class="card border-0 bg-transparent" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2>OUR SERVICES</h2>
+                    <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                      voluptatem.
+                      Ut enim ad minima veniam.</p>
+                    <a class="border-bottom border-primary" href="#">VIEW ALL SERVICES</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-box  d-flex justify-content-center">
+                <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                  <i class="bi bi-wifi fs-1 text-primary"></i>
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">FREE WIFI</h5>
+                    <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                      Volup tatem Utad minima.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="service-box  d-flex justify-content-center">
+                <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                  <i class="bi bi-apple fs-1 text-primary"></i>
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">BREAKFAST</h5>
+                    <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                      Volup tatem Utad minima.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="service-box   d-flex justify-content-center">
+                <div class="card border-0 bg-transparent text-center" style="width: 18rem;">
+                  <i class="bi bi-taxi-front fs-1 text-primary"></i>
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">PICK AND DROP</h5>
+                    <p class="card-text">Incidunt ut labore et dolore magnam aliquam quaerat volup tatem Utad minima.
+                      Volup tatem Utad minima.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- girl -->
+    <section class="girl py-100 py-50">
+      <div class="container">
+        <div class="row">
+          <div class="girl-menu col-12 d-flex flex-wrap">
+            <div class="girl-box col-12 col-md-4 d-flex justify-content-center">
+              <img src="img/girl-1.jpg" alt="">
+            </div>
+            <div class="girl-box col-12 col-md-4 mt-5 d-flex justify-content-center">
+              <img src="img/girl-2.jpg" alt="">
+            </div>
+            <div class="girl-box col-12 col-md-4 mt-5 mt-md-0 d-flex justify-content-center">
+              <img src="img/girl-3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- map -->
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.83988756716!2d-0.26640578112070873!3d51.528739804788714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1701168641511!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+  <footer>
+    <div class="footer bg-warning">
+      <div class="container">
+        <div class="row">
+          <div class="footer-menu col-12 d-flex justify-content-between">
+            <div class="footer-box d-flex align-items-center">
+              <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-column flex-lg-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ABOUT US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ROOMS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONFERENCE ROOM</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="footer-logo">
+              <a href="#"><img src="img/logo1.png" alt=""></a>
+            </div>
+            <div class="footer-box d-flex align-items-center">
+              <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-column flex-lg-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="#">WEDDING HALL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">RESTAURANT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONTACT</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copy bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="copy-menu d-flex flex-wrap justify-content-center justify-content-sm-between">
+            <p class="text-light mb-4 mb-sm-0 text-center text-sm-start">© RangeRelaxe. All rights reserved. Design by GalliaSoft</p>
+            <ul class="d-flex p-0">
+              <li><a href="javascript:void(0);"><i class="bi bi-facebook text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-twitter text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-linkedin text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-youtube text-light me-3 border border-transparent rounded-circle"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="bi bi-facebook text-light me-3 border border-transparent rounded-circle"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+
+  <!-- .rooms -->
+  <script>
+    autoplay: false
+    autoplayTimeout: 5000
+    autoplayHoverPause: false
+    var owl = $('.rooms .owl-carousel');
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+    $('.play').on('click', function () {
+      owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+      owl.trigger('stop.owl.autoplay')
+    })
+  </script>
+
+  <!-- .service -->
+  <script>
+    autoplay: false
+    autoplayTimeout: 5000
+    autoplayHoverPause: false
+    var owl = $('.service .owl-carousel');
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+    $('.play').on('click', function () {
+      owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+      owl.trigger('stop.owl.autoplay')
+    })
+  </script>
+</body>
+
+</html>
